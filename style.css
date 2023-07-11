@@ -85,7 +85,7 @@
     background-color: #E55473;
     border-radius: 50% 50% 0px 0px;
     padding: 100px 50px 0px 50px;
-    display: flex;
+
 
 
 }
@@ -141,9 +141,6 @@
 
 .first {
     font-size: 20px;
-    color: rgba(39, 39, 39, 0.80);
-    text-align: center;
-
 
 }
 
@@ -235,7 +232,7 @@
     padding: 70px;
     margin: 20px 140px;
     border-radius: 5px;
-    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-image: url("Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
