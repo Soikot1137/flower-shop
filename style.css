@@ -211,6 +211,55 @@
 
 }
 
+.gift-container {
+    display: flex;
+    height: 90vh;
+    justify-content: space-around;
+    padding: 100px 50px 100px 50px;
+    margin-bottom: 100px;
+    gap: 50px;
+    font-style: italic;
+
+
+}
+
+.img-gift-section {
+    height: 500px;
+    width: 400px;
+}
+
+.gift-img {
+    height: auto;
+    width: auto;
+    align-items: center;
+}
+
+.gift-content {
+    text-align: center;
+    padding: 200px 100px 0px 0px;
+}
+
+.gift-content>h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.gift-content>input:hover {
+    color: aqua;
+    border: aqua 2px solid;
+    background-color: white;
+}
+
+.gift-content>input {
+    background-color: aqua;
+    padding: 15px 30px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
 
 .gallary-container {
     display: flex;
