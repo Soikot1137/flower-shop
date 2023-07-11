@@ -47,7 +47,7 @@
 .img1 {
     height: 600px;
     width: auto;
-    padding-bottom: 0;
+    padding-bottom: 0px;
     padding-right: 130px;
     padding-top: 50px;
     padding-left: 50px;
@@ -58,6 +58,7 @@
 .featured-container {
     margin: 240px 400px 50px 400px;
     text-align: center;
+
 }
 
 .featured-title {
@@ -76,7 +77,7 @@
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 0 px 200px;
+    padding: 0px 200px;
 }
 
 
@@ -84,7 +85,7 @@
     background-color: #E55473;
     border-radius: 50% 50% 0px 0px;
     padding: 100px 50px 0px 50px;
-
+    display: flex;
 
 
 }
@@ -100,6 +101,7 @@
     border-radius: 50% 50% 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
     padding: 120px 50px 0px 50px;
+    align-items: baseline;
 
 
 
@@ -107,8 +109,9 @@
 
 .img {
     width: 250px;
-    height: 300px;
-    padding-bottom: 0px;
+    height: 250px;
+
+
 
 
 }
@@ -125,6 +128,25 @@
     text-decoration: underline;
     color: #272727;
 }
+
+.support-container {
+    display: flex;
+    margin: 128px 130px;
+    background-color: #F4F4F4;
+    justify-content: space-around;
+    text-align: center;
+    padding: 80px;
+    gap20px
+}
+
+.first {
+    font-size: 20px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+
+
+}
+
 
 .offer-container {
     display: flex;
@@ -175,7 +197,7 @@
 
 .social {
     text-align: center;
-    padding: 100px 400px;
+    padding: 100px 400px 40px 400px;
 
 }
 
@@ -189,5 +211,81 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     padding-top: 20px;
+
+}
+
+
+.gallary-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 100px;
+    margin: 0px 160px;
+}
+
+.gallary-img1 {
+    width: 250px;
+    height: 300px;
+}
+
+
+.subscribe-conteiner {
+    text-align: center;
+    background-color: #1301011a;
+    padding: 70px;
+    margin: 20px 140px;
+    border-radius: 5px;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe-conteiner>h3 {
+    color: #272727;
+    font-size: 35px;
+
+}
+
+.subscribe-conteiner>p {
+    color: rgba(39, 39, 39, 0.60);
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.input {
+    width: 50%;
+    height: 65px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 10px;
+
+
+}
+
+
+.footer {
+    background-color: black;
+    color: beige;
+    text-align: center;
+    padding: 128px 400px 128px 400px;
+    margin-top: 120px;
+}
+
+.reserve {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.footer-title {
+    font-size: 40px;
+    color: ;
+}
+
+.footer-p {
+    padding: 32px;
+    color: rgba(255, 255, 255, 0.90);
+
 
 }
