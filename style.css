@@ -42,7 +42,7 @@
 }
 
 
-.title-img {}
+
 
 .img1 {
     height: 600px;
@@ -88,6 +88,7 @@
 
 
 
+
 }
 
 .secend-tree {
@@ -101,8 +102,6 @@
     border-radius: 50% 50% 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
     padding: 120px 50px 0px 50px;
-    align-items: baseline;
-
 
 
 }
@@ -110,6 +109,8 @@
 .img {
     width: 250px;
     height: 250px;
+
+    top: 70px;
 
 
 
@@ -155,7 +156,6 @@
     gap: 50px;
 }
 
-.offer-list {}
 
 .off {
     color: #E55473;
